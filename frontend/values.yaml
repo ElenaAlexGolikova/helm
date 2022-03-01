@@ -1,0 +1,7 @@
+tag:
+  id: $CI_PIPELINE_ID   
+
+replicaCount: 1
+
+ingress:
+  host: $INGRESS_HOST

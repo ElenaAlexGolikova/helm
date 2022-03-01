@@ -1,0 +1,4 @@
+tag:
+  id: $CI_PIPELINE_ID   
+
+replicaCount: 1

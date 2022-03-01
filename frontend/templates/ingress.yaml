@@ -1,0 +1,16 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  labels:
+    app: frontend
+  name: ingress-frontend
+spec:
+  rules:
+  - host: {{ .Values.ingress.host}}
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: frontend-service
+          servicePort: 8081
+
