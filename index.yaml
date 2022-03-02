@@ -1,11 +1,27 @@
 apiVersion: v1
 entries:
+  backend:
+  - apiVersion: v2
+    created: "2022-03-03T01:15:15.1171593+03:00"
+    digest: d720e8ca65afcf4390fee5d8bdd9269ea9de86cdc9086168f2881b0a27aa867c
+    name: backend
+    urls:
+    - https://elenaalexgolikova.github.io/helm/backend-0.1.0.tgz
+    version: 0.1.0
+  db:
+  - apiVersion: v2
+    created: "2022-03-03T01:15:15.119153+03:00"
+    digest: 086ab89521184af2815f9468323d2301667496860769dbb36c967b1465fabf33
+    name: db
+    urls:
+    - https://elenaalexgolikova.github.io/helm/db-0.1.0.tgz
+    version: 0.1.0
   frontend:
   - apiVersion: v2
-    created: "2022-03-02T22:35:58.8299583+03:00"
+    created: "2022-03-03T01:15:15.1248064+03:00"
     digest: b82e083743aa7e515b973e6d1fa9511e78577ee6d7749e25ccd91022316cf25f
     name: frontend
     urls:
     - https://elenaalexgolikova.github.io/helm/frontend-0.1.0.tgz
     version: 0.1.0
-generated: "2022-03-02T22:35:58.8289605+03:00"
+generated: "2022-03-03T01:15:15.1101816+03:00"
